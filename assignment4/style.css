@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    }
+    div:hover{
+        background-color: white;
+
+    }
+    div{
+    margin: auto;
+    padding: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+img{
+    max-width: 150px;
+    height: auto;
+}
+@media screen and (max-width: 150px){
+    body{
+        background-color: red;
+    }
+}
+@media screen and (Max-width: 100px){
+    body{
+        background-color: black;
+    }
+}
